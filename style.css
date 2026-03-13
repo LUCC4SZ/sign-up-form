@@ -36,3 +36,49 @@ a {
 .logo img {
     width: 25%;
 }
+
+.right {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dfdfdf;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 50px 25px 15px 15px;
+    font-weight: 800;
+}
+
+.text span {
+    font-style: italic;
+}
+
+.form {
+    background-color: #eeeeee;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #596d48;
+    color: white;
+    font-size: 18px;
+}
+
+.create span {
+    color: #596d48;
+    font-weight: 800;
+}
