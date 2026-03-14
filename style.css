@@ -8,7 +8,7 @@ body {
 }
 
 .left {
-    width: 500px;
+    width: 35%;
     height: 600px;
     background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
     background-size: 500px;
@@ -38,15 +38,16 @@ a {
 }
 
 .right {
+    width: 65%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #dfdfdf;
+    background-color: #ededed;
 }
 
 .text {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    padding: 50px 25px 15px 15px;
+    padding: 100px 25px 15px 15px;
     font-weight: 800;
 }
 
@@ -55,11 +56,18 @@ a {
 }
 
 .form {
-    background-color: #eeeeee;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 32px 32px;
+    margin: 32px 0;
 }
 
 .form-row {
     display: flex;
+    gap: 64px;
+    margin-top: 16px;
 }
 
 .form-field {
