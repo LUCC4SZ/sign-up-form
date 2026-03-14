@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "Norse";
+    src: url("fonts/Norse-Bold.woff") format("woff")
+        url("fonts/Norse-Bold.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    /*Credits to Joël Carrouché aka. JCfonts*/
+}
+
 body {
     display: flex;
 }
@@ -10,7 +20,7 @@ body {
 .left {
     width: 35%;
     height: 600px;
-    background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+    background-image: url("img/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: 500px;
     color: white;
     text-align: center;
