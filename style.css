@@ -17,6 +17,7 @@
 
 body {
     display: flex;
+    font: 1.3rem sans-serif;
 }
 
 input,
@@ -56,6 +57,12 @@ a {
 
 .logo img {
     width: 25%;
+}
+
+h1 {
+    font-family: "Norse";
+    font-weight: bold;
+    font-style: normal;
 }
 
 /* Right section */
@@ -103,7 +110,7 @@ a {
 }
 
 input {
-    border-color: #e5e7eb;
+    border: 1px solid #e5e7eb;
 }
 
 /* Bottom section */
