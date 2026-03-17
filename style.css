@@ -19,6 +19,13 @@ body {
     display: flex;
 }
 
+input,
+button {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
 /* Left section */
 
 .left {
@@ -95,17 +102,28 @@ a {
     flex-direction: column;
 }
 
+input {
+    border-color: #e5e7eb;
+}
+
 /* Bottom section */
 
 .bottom {
     display: flex;
     flex-direction: column;
+    gap: 24px;
+    padding-left: 32px;
 }
 
 button {
     background-color: #596d48;
     color: white;
     font-size: 18px;
+    font-weight: bold;
+    width: 250px;
+    padding: 8px 0;
+    border: 1px solid #596d48;
+    border-radius: 8px;
 }
 
 .bottom span {
